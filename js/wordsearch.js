@@ -371,19 +371,19 @@
 ];
 
 	var neutral_matrix = [
-[	'J',	'O',	'Q',	'L',	'X',	'B',	'O',	'A',	'R',	'D',	'X'	],
-[	'O',	'S',	'N',	'B',	'C',	'G',	'Z',	'R',	'R',	'R',	'Y'	],
-[	'T',	'P',	'V',	'U',	'L',	'N',	'C',	'K',	'E',	'F',	'Y'	],
-[	'K',	'L',	'Z',	'J',	'X',	'I',	'L',	'G',	'T',	'C',	'Y'	],
-[	'Z',	'L',	'B',	'H',	'E',	'D',	'O',	'L',	'A',	'O',	'Y'	],
-[	'D',	'C',	'E',	'Y',	'N',	'L',	'C',	'U',	'W',	'F',	'F'	],
-[	'W',	'Y',	'N',	'V',	'O',	'I',	'K',	'P',	'N',	'F',	'K'	],
-[	'E',	'Q',	'I',	'X',	'H',	'U',	'K',	'L',	'H',	'E',	'L'	],
-[	'D',	'W',	'Z',	'V',	'P',	'B',	'L',	'P',	'O',	'E',	'A'	],
-[	'J',	'F',	'A',	'X',	'E',	'E',	'A',	'M',	'U',	'H',	'M'	],
-[	'O',	'C',	'G',	'R',	'L',	'X',	'H',	'H',	'S',	'X',	'P'	],
-[	'V',	'W',	'A',	'K',	'E',	'F',	'C',	'O',	'E',	'C',	'K'	],
-[	'C',	'G',	'M',	'R',	'T',	'M',	'A',	'F',	'S',	'N',	'H'	],
+[	'Q',	'U',	'I',	'C',	'K',	'B',	'O',	'A',	'R',	'D',	'X'	],
+[	'H',	'O',	'N',	'E',	'S',	'T',	'Z',	'R',	'R',	'R',	'Y'	],
+[	'M',	'P',	'V',	'U',	'L',	'N',	'C',	'K',	'E',	'F',	'Y'	],
+[	'O',	'R',	'Z',	'J',	'L',	'I',	'L',	'G',	'T',	'C',	'Y'	],
+[	'U',	'O',	'B',	'R',	'A',	'D',	'O',	'L',	'A',	'O',	'Y'	],
+[	'S',	'B',	'E',	'A',	'S',	'T',	'C',	'U',	'W',	'F',	'F'	],
+[	'E',	'L',	'N',	'V',	'Y',	'I',	'K',	'P',	'N',	'F',	'K'	],
+[	'E',	'E',	'I',	'X',	'H',	'U',	'K',	'L',	'H',	'E',	'L'	],
+[	'D',	'M',	'Z',	'V',	'P',	'H',	'O',	'N',	'E',	'E',	'A'	],
+[	'J',	'F',	'E',	'X',	'E',	'E',	'A',	'M',	'U',	'H',	'M'	],
+[	'O',	'C',	'B',	'R',	'L',	'X',	'H',	'H',	'S',	'X',	'P'	],
+[	'V',	'W',	'R',	'K',	'E',	'F',	'C',	'O',	'E',	'C',	'K'	],
+[	'C',	'G',	'A',	'R',	'T',	'M',	'A',	'F',	'S',	'N',	'H'	],
 [	'U',	'F',	'P',	'G',	'B',	'C',	'X',	'T',	'K',	'J',	'J'	]
 ];
 
@@ -396,22 +396,22 @@
 	
 	for (var row = 0; row < rsize; row++) {
       for (var col = 0; col < csize; col++) {
-	    if(this.settings.condition == 0) {
-			var item = {
-			letter: control_matrix [row][col], // Default value
-			row: row,
-			col: col
-			}
-		} 
-	     if(this.settings.condition == 1) {
-			var item = {
-			letter: impossible_matrix [row][col], // Default value
-			row: row,
-			col: col
-			}
-		}
+// 	    if(this.settings.condition == 0) {
+// 			var item = {
+// 			letter: control_matrix [row][col], // Default value
+// 			row: row,
+// 			col: col
+// 			}
+// 		} 
+// 	     if(this.settings.condition == 1) {
+// 			var item = {
+// 			letter: impossible_matrix [row][col], // Default value
+// 			row: row,
+// 			col: col
+// 			}
+// 		}
 	     
-	     if(this.settings.condition == 4) {
+	     if(this.settings.condition >= 3) {
 			var item = {
 			letter: neutral_matrix [row][col], // Default value
 			row: row,
@@ -420,7 +420,7 @@
 		}
 		
 	     
-	     if(this.settings.condition == 5) {
+	     if(this.settings.condition <= 2) {
 			var item = {
 			letter: power_matrix  [row][col], // Default value
 			row: row,
