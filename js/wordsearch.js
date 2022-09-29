@@ -411,7 +411,7 @@
 // 			}
 // 		}
 	     
-	     if(this.settings.condition >= 3) {
+	     if(this.settings.condition == 4) {
 			var item = {
 			letter: neutral_matrix [row][col], // Default value
 			row: row,
@@ -420,7 +420,7 @@
 		}
 		
 	     
-	     if(this.settings.condition <= 2) {
+	     if(this.settings.condition == 5) {
 			var item = {
 			letter: power_matrix  [row][col], // Default value
 			row: row,
