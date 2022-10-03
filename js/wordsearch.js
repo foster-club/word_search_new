@@ -386,6 +386,58 @@
 [	'C',	'G',	'A',	'R',	'T',	'M',	'A',	'F',	'S',	'N',	'H'	],
 [	'U',	'F',	'P',	'G',	'B',	'C',	'X',	'T',	'K',	'J',	'J'	]
 ];
+	  
+	  var neutral_matrix2 = [
+[	'H',	'O',	'N',	'O',	'U',	'R',	'O',	'A',	'R',	'T',	'C'	],
+[	'O',	'O',	'P',	'E',	'R',	'A',	'T',	'I',	'O',	'N',	'A'	],
+[	'S',	'P',	'V',	'U',	'L',	'N',	'C',	'K',	'E',	'F',	'R'	],
+[	'P',	'R',	'E',	'S',	'S',	'U',	'R',	'E',	'T',	'C',	'E'	],
+[	'I',	'O',	'B',	'R',	'A',	'D',	'O',	'L',	'A',	'O',	'Y'	],
+[	'T',	'B',	'E',	'A',	'S',	'T',	'C',	'E',	'W',	'F',	'F'	],
+[	'A',	'M',	'U',	'L',	'A',	'N',	'C',	'E',	'N',	'F',	'K'	],
+[	'L',	'E',	'I',	'X',	'H',	'U',	'K',	'L',	'H',	'E',	'L'	],
+[	'D',	'M',	'Z',	'V',	'P',	'H',	'O',	'N',	'E',	'E',	'D'	],
+[	'J',	'F',	'E',	'X',	'E',	'E',	'A',	'M',	'U',	'H',	'O'	],
+[	'A',	'P',	'A',	'T',	'I',	'E',	'N',	'T',	'S',	'X',	'C'	],
+[	'P',	'R',	'E',	'G',	'N',	'E',	'N',	'T',	'E',	'C',	'T'	],
+[	'C',	'G',	'A',	'R',	'T',	'N',	'U',	'R',	'S',	'E',	'O'	],
+[	'U',	'F',	'M',	'E',	'D',	'I',	'C',	'I',	'N',	'E',	'R'	]
+];
+	  
+	  var neutral_matrix3 = [
+[	'H',	'O',	'B',	'B',	'Y',	'R',	'B',	'O',	'O',	'K',	'S'	],
+[	'E',	'G',	'L',	'O',	'B',	'E',	'T',	'I',	'O',	'N',	'C'	],
+[	'A',	'P',	'V',	'U',	'L',	'N',	'C',	'K',	'E',	'F',	'L'	],
+[	'L',	'R',	'E',	'S',	'S',	'U',	'R',	'E',	'T',	'C',	'U'	],
+[	'T',	'O',	'P',	'I',	'C',	'S',	'C',	'L',	'U',	'E',	'B'	],
+[	'H',	'B',	'E',	'A',	'S',	'T',	'C',	'E',	'W',	'F',	'F'	],
+[	'Y',	'M',	'U',	'L',	'A',	'N',	'C',	'E',	'N',	'F',	'K'	],
+[	'L',	'E',	'D',	'U',	'C',	'A',	'T',	'I',	'O',	'N',	'L'	],
+[	'D',	'M',	'Z',	'V',	'P',	'A',	'R',	'E',	'N',	'T',	'S'	],
+[	'J',	'F',	'E',	'X',	'E',	'E',	'A',	'M',	'U',	'H',	'O'	],
+[	'A',	'P',	'A',	'T',	'I',	'E',	'N',	'T',	'S',	'X',	'S'	],
+[	'P',	'R',	'E',	'G',	'N',	'E',	'N',	'T',	'E',	'C',	'T'	],
+[	'C',	'O',	'S',	'T',	'L',	'Y',	'U',	'R',	'S',	'E',	'O'	],
+[	'I',	'N',	'S',	'T',	'I',	'T',	'U',	'T',	'E',	'E',	'P'	]
+];
+
+	  
+	  var neutral_matrix4 = [
+[	'J',	'U',	'D',	'G',	'E',	'R',	'H',	'O',	'U',	'S',	'E'	],
+[	'E',	'G',	'A',	'O',	'B',	'U',	'T',	'I',	'O',	'N',	'T'	],
+[	'L',	'I',	'S',	'T',	'I',	'G',	'C',	'K',	'E',	'F',	'A'	],
+[	'L',	'R',	'H',	'S',	'S',	'B',	'R',	'E',	'T',	'C',	'L'	],
+[	'T',	'O',	'B',	'I',	'C',	'Y',	'C',	'L',	'U',	'E',	'B'	],
+[	'H',	'A',	'M',	'S',	'T',	'E',	'R',	'E',	'W',	'F',	'O'	],
+[	'Y',	'M',	'U',	'S',	'O',	'R',	'R',	'O',	'W',	'F',	'U'	],
+[	'L',	'E',	'R',	'U',	'C',	'A',	'T',	'I',	'A',	'N',	'Q'	],
+[	'D',	'M',	'D',	'V',	'P',	'A',	'R',	'E',	'A',	'T',	'U'	],
+[	'J',	'F',	'E',	'X',	'E',	'E',	'A',	'M',	'E',	'H',	'E'	],
+[	'A',	'P',	'E',	'A',	'C',	'O',	'C',	'K',	'S',	'X',	'T'	],
+[	'P',	'R',	'O',	'F',	'E',	'S',	'S',	'O',	'R',	'C',	'T'	],
+[	'C',	'M',	'U',	'S',	'I',	'C',	'I',	'A',	'N',	'E',	'O'	],
+[	'D',	'A',	'S',	'H',	'B',	'O',	'A',	'R',	'D',	'E',	'P'	]
+];
 
 	var csize = size;
 	var rsize = size;
@@ -422,12 +474,27 @@
 	     
 	     if(this.settings.condition == 5) {
 			var item = {
-			letter: power_matrix  [row][col], // Default value
+			letter: neutral_matrix2  [row][col], // Default value
 			row: row,
 			col: col
 			}
 		}
+	     if(this.settings.condition == 6) {
+			var item = {
+			letter: neutral_matrix3  [row][col], // Default value
+			row: row,
+			col: col
+			}
+	       }
+	     if(this.settings.condition == 7) {
+			var item = {
+			letter: neutral_matrix3  [row][col], // Default value
+			row: row,
+			col: col
+			}
+	       }
 		
+	      
 		this.matrix[row][col] = item;
 	   }
 	}
