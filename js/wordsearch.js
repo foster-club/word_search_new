@@ -443,36 +443,68 @@
 // 			col: col
 // 			}
 // 		}
-	     
+	     var rand = Math.random()
 	     if(this.settings.condition == 4) {
-			var item = {
-			letter: neutral_matrix [row][col], // Default value
-			row: row,
-			col: col
-			}
+		     if(this.settings.cap_rand == 1)
+			     if(rand >0.5)
+				var item = {
+				letter: neutral_matrix[row][col].toLowerCase(), // Default value
+				row: row,
+				col: col
+				}
+			else
+				var item = {
+				letter: neutral_matrix [row][col], // Default value
+				row: row,
+				col: col
+				}
 		}
 		
 	     
 	     if(this.settings.condition == 5) {
-			var item = {
-			letter: neutral_matrix2  [row][col], // Default value
-			row: row,
-			col: col
-			}
+		     if(this.settings.cap_rand == 1)
+			     if(rand >0.5)
+				var item = {
+				letter: neutral_matrix2[row][col].toLowerCase(), // Default value
+				row: row,
+				col: col
+				}
+			else
+				var item = {
+				letter: neutral_matrix2[row][col], // Default value
+				row: row,
+				col: col
+				}
 		}
 	     if(this.settings.condition == 6) {
-			var item = {
-			letter: neutral_matrix3  [row][col], // Default value
-			row: row,
-			col: col
-			}
+		     if(this.settings.cap_rand == 1)
+			     if(rand >0.5)
+				var item = {
+				letter: neutral_matrix3 [row][col].toLowerCase(), // Default value
+				row: row,
+				col: col
+				}
+			else
+				var item = {
+				letter: neutral_matrix3 [row][col], // Default value
+				row: row,
+				col: col
+				}
 	       }
-	     if(this.settings.condition == 10) {
-			var item = {
-			letter: neutral_matrix4  [row][col], // Default value
-			row: row,
-			col: col
-			}
+	     if(this.settings.condition == 7) {
+		     if(this.settings.cap_rand == 1)
+			     if(rand >0.5)
+				var item = {
+				letter: neutral_matrix4[row][col].toLowerCase(), // Default value
+				row: row,
+				col: col
+				}
+			else
+				var item = {
+				letter: neutral_matrix4[row][col], // Default value
+				row: row,
+				col: col
+				}
 	       }
 		
 	      
