@@ -469,7 +469,7 @@
 	       }
 	     if(this.settings.condition == 7) {
 			var item = {
-			letter: neutral_matrix3  [row][col], // Default value
+			letter: neutral_matrix4  [row][col], // Default value
 			row: row,
 			col: col
 			}
