@@ -645,8 +645,8 @@
     }
     words.push(words[0].split('').reverse().join(''));
 
-    if (this.settings.words.indexOf(words[0]) > -1 ||
-        this.settings.words.indexOf(words[1]) > -1) {
+    if (this.settings.words.indexOf(words[0].toUpperCase()) > -1 ||
+        this.settings.words.indexOf(words[1].toUpperCase()) > -1) {
 		
 		
 		//word has been found -- added this code to keep score - requires score function in bob script
