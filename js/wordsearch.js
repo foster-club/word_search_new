@@ -452,7 +452,7 @@
 				row: row,
 				col: col
 				}
-			else
+			if(rand <= 0.5)
 				var item = {
 				letter: neutral_matrix [row][col], // Default value
 				row: row,
@@ -469,7 +469,7 @@
 				row: row,
 				col: col
 				}
-			else
+			if(rand <= 0.5)
 				var item = {
 				letter: neutral_matrix2[row][col], // Default value
 				row: row,
@@ -484,7 +484,7 @@
 				row: row,
 				col: col
 				}
-			else
+			if(rand <= 0.5)
 				var item = {
 				letter: neutral_matrix3 [row][col], // Default value
 				row: row,
@@ -499,7 +499,7 @@
 				row: row,
 				col: col
 				}
-			else
+			if(rand <= 0.5)
 				var item = {
 				letter: neutral_matrix4[row][col], // Default value
 				row: row,
