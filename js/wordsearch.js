@@ -467,7 +467,7 @@
 			col: col
 			}
 	       }
-	     if(this.settings.condition == 7) {
+	     if(this.settings.condition == 10) {
 			var item = {
 			letter: neutral_matrix4  [row][col], // Default value
 			row: row,
