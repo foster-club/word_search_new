@@ -489,12 +489,12 @@
     var rowcount = this.settings.gridSize;
 	var columncount = this.settings.gridSize;
 	if (this.settings.test) { 
-		rowcount = 3; 
+		rowcount = 9; 
 		columncount = 9;
 	}
 	if (this.settings.condition > 2) {
-		rowcount = 14;
-		columncount = 11;
+		rowcount = 9;
+		columncount = 9;
 	}
 	
 	
