@@ -644,7 +644,8 @@
       words[0] += selected[i].letter;
     }
     words.push(words[0].split('').reverse().join(''));
-
+	words[0] = words[0].toUpperCase();
+	words[1] = words[1].toUpperCase();
     if (this.settings.words.indexOf(words[0].toUpperCase()) > -1 ||
         this.settings.words.indexOf(words[1].toUpperCase()) > -1) {
 		
